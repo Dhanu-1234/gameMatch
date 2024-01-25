@@ -1,0 +1,243 @@
+.app-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-bg.png');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.navbar {
+  list-style: none;
+  background-color: #2c0e3a;
+  width: 100%;
+  padding: 5px;
+  margin-top: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-container {
+  margin-left: 30px;
+}
+
+.logo-styles {
+  width: 180px;
+}
+
+.score-timer-container {
+  width: 15%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.score-text {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: 500;
+  margin-right: 10px;
+}
+
+.highlighted-text {
+  color: #fec653;
+  font-family: 'Roboto';
+  font-weight: 500;
+  margin-right: 10px;
+  margin-left: 5px;
+}
+
+.remaining.time {
+  padding: 10px;
+}
+
+.timer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.timer-icon-styles {
+  height: 25px;
+  width: 25px;
+  margin-bottom: 5px;
+  margin-right: 2px;
+}
+
+.content-container {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-container {
+  margin-top: 20px;
+  height: 350px;
+  width: 600px;
+}
+
+.img-styles {
+  height: 100%;
+  width: 100%;
+}
+
+.tabs-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.thumbnails-container {
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.result-card {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-score-card-lg-bg.png');
+  height: auto;
+  width: 44vw;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  padding-top: 140px;
+  padding-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.trophy-container {
+  width: 100%;
+  margin-top: 55px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.trophy-styles {
+  height: 300px;
+  width: 400px;
+}
+
+.your-score-text {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.result-score {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 30px;
+  margin-top: 0px;
+}
+
+.play-again-btn {
+  background-color: #cf60c8;
+  color: #ffffff;
+  height: 60px;
+  width: 200px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 25px;
+  padding: 10px;
+  border-width: 0px;
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.reset-icon-styles {
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 576px) {
+  .app-container {
+    height: 100vh;
+  }
+  .navbar {
+    width: 100%;
+    padding: 5px;
+  }
+
+  .logo-styles {
+    width: 100px;
+  }
+
+  .score-timer-container {
+    width: 40%;
+  }
+
+  .score-text {
+    font-size: 12px;
+  }
+
+  .timer-icon-styles {
+    height: 20px;
+    width: 20px;
+  }
+
+  .highlighted-text {
+    font-size: 12px;
+    margin-right: 5px;
+  }
+
+  .img-container {
+    height: 40%;
+    width: 80%;
+  }
+
+  .tabs-container {
+    padding-left: 5px;
+  }
+
+  .thumbnails-container {
+    padding-left: 2px;
+    width: 95%;
+  }
+
+  .result-card {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-score-card-sm-bg.png');
+    height: auto;
+    width: 85vw;
+    background-size: cover;
+    padding-top: 60px;
+    padding-bottom: 20px;
+  }
+
+  .trophy-styles {
+    height: 150px;
+    width: 250px;
+  }
+
+  .your-score-text {
+    font-size: 18px;
+  }
+
+  .result-score {
+    margin-bottom: 10px;
+  }
+
+  .play-again-btn {
+    font-size: 15px;
+    height: 50px;
+    width: auto;
+    padding: 20px;
+  }
+}

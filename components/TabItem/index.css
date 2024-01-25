@@ -1,0 +1,28 @@
+.list-item {
+  list-style: none;
+  margin: 10px;
+}
+
+.tab-btn {
+  background-color: transparent;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: 500;
+  border-width: 0px;
+  border-bottom-width: 4px;
+  border-bottom-color: transparent;
+  cursor: pointer;
+  outline: none;
+}
+
+.active-tab {
+  color: #fec653;
+  border-bottom-color: #fec653;
+}
+
+@media screen and (max-width: 567px) {
+  .tab-btn {
+    font-size: 18px;
+  }
+}
